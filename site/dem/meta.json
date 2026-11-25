@@ -1,0 +1,121 @@
+{
+  "center": [
+    46.568,
+    7.991
+  ],
+  "near": {
+    "size": 1024,
+    "metersPerPixel": 26.274968565564876,
+    "min": 554.53125,
+    "max": 4131.046875
+  },
+  "far": {
+    "size": 768,
+    "metersPerPixel": 105.0998742622595,
+    "min": 407.0234375,
+    "max": 4086.60546875
+  },
+  "summits": [
+    {
+      "name": "Jungfrau",
+      "elevation": 4039,
+      "paper": [
+        0.7142,
+        0.7868
+      ]
+    },
+    {
+      "name": "Mönch",
+      "elevation": 4062,
+      "paper": [
+        0.9419,
+        0.5892
+      ]
+    },
+    {
+      "name": "Eiger",
+      "elevation": 3917,
+      "paper": [
+        0.9913,
+        0.413
+      ]
+    },
+    {
+      "name": "Schreckhorn",
+      "elevation": 3949,
+      "paper": [
+        1.696,
+        0.3013
+      ]
+    },
+    {
+      "name": "Finsteraarhorn",
+      "elevation": 4131,
+      "paper": [
+        1.7454,
+        0.7868
+      ]
+    }
+  ],
+  "attribution": "Elevation: Terrain Tiles (AWS Open Data / Tilezen) — contains SRTM, EU-DEM (© EEA), GMTED2010 and other open sources.",
+  "landcover": {
+    "source": "ESA WorldCover 2021 v200 (10 m)",
+    "url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N45E006_Map.tif",
+    "size": 1024,
+    "supersample": 4,
+    "classes": {
+      "10": "tree cover",
+      "20": "shrubland",
+      "30": "grassland",
+      "40": "cropland",
+      "50": "built-up",
+      "60": "bare/sparse vegetation",
+      "70": "snow and ice",
+      "80": "permanent water",
+      "90": "herbaceous wetland",
+      "95": "mangroves",
+      "100": "moss and lichen"
+    },
+    "channels": {
+      "R": {
+        "meaning": "snow and ice",
+        "classes": [
+          70
+        ]
+      },
+      "G": {
+        "meaning": "tree cover",
+        "classes": [
+          10
+        ]
+      },
+      "B": {
+        "meaning": "bare/sparse vegetation and moss/lichen",
+        "classes": [
+          60,
+          100
+        ]
+      },
+      "A": {
+        "meaning": "permanent water",
+        "classes": [
+          80
+        ]
+      },
+      "remainder": {
+        "meaning": "meadow",
+        "classes": [
+          20,
+          30,
+          40,
+          50,
+          90,
+          95
+        ]
+      }
+    },
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Land cover: ESA WorldCover 2021 (CC BY 4.0)"
+  }
+}

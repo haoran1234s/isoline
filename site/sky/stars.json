@@ -1,0 +1,75 @@
+{
+  "count": 9095,
+  "attribution": "Yale Bright Star Catalogue, 5th rev. ed., Hoffleit & Warren 1991",
+  "source": "bsc5.dat; J2000 right ascension and declination, Johnson V and B-V",
+  "observer": {
+    "latitudeDeg": 46.57,
+    "longitudeDeg": 7.99
+  },
+  "observation": {
+    "local": "2026-10-24T23:00:00+02:00",
+    "timezone": "Europe/Zurich",
+    "utc": "2026-10-24T21:00:00Z",
+    "julianDate": 2461338.375,
+    "localSiderealDeg": 356.26492209965363,
+    "localSiderealHours": 23.750994806643575,
+    "approximation": "J2000 fixed directions; mean sidereal rotation, no precession, proper motion or refraction"
+  },
+  "frame": {
+    "east": "+X",
+    "up": "+Y",
+    "north": "-Z"
+  },
+  "galactic": {
+    "northPoleEquatorialDeg": [
+      192.859,
+      27.128
+    ],
+    "northPole": [
+      -0.2541716551584822,
+      -0.2552183781146081,
+      -0.9328774566825733
+    ],
+    "centreEquatorialDeg": [
+      266.4051,
+      -28.936175
+    ],
+    "centre": [
+      -0.8751566019350633,
+      -0.34989620717049763,
+      0.3341759511053623
+    ]
+  },
+  "moon": {
+    "direction": [
+      -0.2501376135415846,
+      0.3001651362499015,
+      -0.9205064178330312
+    ],
+    "exclusionDeg": 1.5
+  },
+  "record": {
+    "fields": [
+      "x",
+      "y",
+      "z",
+      "magnitude",
+      "bv"
+    ],
+    "componentType": "float32",
+    "byteStride": 20,
+    "byteOrder": "little-endian",
+    "sort": "ascending magnitude; stable catalogue order at equal magnitude",
+    "blankBv": 0.65
+  },
+  "statistics": {
+    "sourceRows": 9110,
+    "missingOrInvalid": 14,
+    "moonExcluded": 1,
+    "aboveHorizon": 4440,
+    "magnitudeRange": [
+      -1.46,
+      7.96
+    ]
+  }
+}
